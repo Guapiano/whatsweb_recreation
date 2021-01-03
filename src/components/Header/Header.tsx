@@ -15,21 +15,21 @@ export default function Header(){
                         <IconsLink href="#">
                             <MdHistory 
                             color="#9c9c9c" 
-                            size={25}
+                            size={20}
                             />
                         </IconsLink>
 
                         <IconsLink href="#">
                             <MdTextsms 
                             color="#9c9c9c" 
-                            size={25}
+                            size={20}
                             />
                         </IconsLink>
 
                         <IconsLink href="#">
                             <MdMoreVert 
                             color="#9c9c9c" 
-                            size={25}
+                            size={20}
                             />
                         </IconsLink>
 
