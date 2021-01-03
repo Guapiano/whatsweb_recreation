@@ -1,5 +1,5 @@
 import React from 'react';
-import Sms from '../components/Sms/Sms';
+import Sms from '../components/WhatsMessagesContainer/WhatsMessagesContainer';
 import Header from '../components/Header/Header';
 import {Container, LeftSide, RightSide} from './HomePageStyles';
 
