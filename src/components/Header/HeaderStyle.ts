@@ -30,6 +30,7 @@ export const UserPhoto = styled.img`
 `;
 
 export const IconsContainer = styled.div`
+    //Div vazia.
 `;
 
 export const IconsLink = styled.a`
@@ -75,6 +76,6 @@ export const SearchInput = styled.input`
 export const IconLinkInput = styled.a`
     position: absolute;
     color: #9c9c9c;
-    left : 20px;
+    left : 10px;
     top: 10px;
 `;

@@ -1,6 +1,6 @@
 import React from 'react';
 import avatar from '../../assets/avatar-messages.png';
-import {Container, UserAndMessage, UserPhoto, UserNameAndMessage, UserName, UserMessage, HourAndBadgeContainer, Hour, Badge, NumberOfMessages} from './WhatsMessagesStyle';
+import {Container, UserAndMessage, UserPhoto, UsernameAndMessage, Username, UserMessage, HourAndBadgeContainer, Hour, Badge, NumberOfMessages} from './WhatsMessagesStyle';
 
 export interface MessageProps{
     name: string;
@@ -15,10 +15,10 @@ export default function WhatsMessages({name, message, hourMessage, badgeMessages
         <Container>
             <UserAndMessage>
                 <UserPhoto src={avatar}></UserPhoto>
-                <UserNameAndMessage>
-                    <UserName>{name}</UserName>
+                <UsernameAndMessage>
+                    <Username>{name}</Username>
                     <UserMessage>{message}</UserMessage>
-                </UserNameAndMessage>
+                </UsernameAndMessage>
             </UserAndMessage>
             <HourAndBadgeContainer>
                 <Hour>{hourMessage}</Hour>

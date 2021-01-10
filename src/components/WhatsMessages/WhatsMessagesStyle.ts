@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    height: 15%;
+    height: 20%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -24,33 +24,33 @@ export const UserPhoto = styled.img`
     border-radius: 50%;
 `;
 
-export const UserNameAndMessage = styled.div`
+export const UsernameAndMessage = styled.div`
     display: flex;
     margin-left: 10px;
     flex-direction: column;
 `;
 
-export const UserName = styled.p`
+export const Username = styled.p`
     color: #000;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     margin-bottom: 5px;
 `;
 
 export const UserMessage = styled.p`
-    color: #909090;
-    font-size: 12px;
+    color: #626262;
+    font-size: 14px;
 `;
 
 export const HourAndBadgeContainer = styled.div`
     display: flex;
+    align-items: center; 
     flex-direction: column;
-    align-items: center;   
 `;
 
 export const Hour = styled.p`
     color: #909090;
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 5px;
 `;
 
