@@ -19,7 +19,7 @@ export const HeaderOneContents = styled.div`
     height: 100%;
     display: flex;
     align-items: center;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 0px;
     justify-content: space-between;
 `;
 
