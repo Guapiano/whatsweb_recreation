@@ -34,7 +34,7 @@ export const IconsContainer = styled.div`
 `;
 
 export const IconsLink = styled.a`
-    padding: 10px;
+    padding: 0 0px 0px 10px;
 `;
 
 export const HeaderTwo = styled.div`

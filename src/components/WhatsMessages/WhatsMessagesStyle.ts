@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    height: 90px;
     width: 100%;
+    height: 90px;
     display: flex;
     align-items: center;
     border-style: solid;
@@ -18,8 +18,8 @@ export const UserAndMessage = styled.div`
 `;
 
 export const UserPhoto = styled.img`
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     cursor: pointer;
     border-radius: 50%;
 `;
