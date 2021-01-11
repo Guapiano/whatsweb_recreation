@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    height: 20%;
+    height: 90px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -46,12 +46,54 @@ export const HourAndBadgeContainer = styled.div`
     display: flex;
     align-items: center; 
     flex-direction: column;
+    @media(max-width: 1310px){
+        height: 40px;
+    }
+
+    @media(max-width: 1220px){
+        height: 40px;
+    }
+
+    @media(max-width: 960px){
+        height: 40px;
+    }
+
+    @media(max-width: 420px){
+        height: 30px;
+    }
+
+    @media(max-width: 380px){
+        height: 40px;
+    }
+
+    @media(max-width: 325px){
+        height: 55px;
+    }
 `;
 
 export const Hour = styled.p`
     color: #909090;
     font-size: 12px;
     margin-bottom: 5px;
+    @media(max-width: 1310px){
+        display: none;
+    }
+
+    @media(max-width: 1220px){
+        display: flex;
+    }
+
+    @media(max-width: 420px){
+        display: flex;
+    }
+
+    @media(max-width: 380px){
+        display: none;
+    }
+
+    @media(max-width: 325px){
+        display: none;
+    }
 `;
 
 export const Badge = styled.div`
